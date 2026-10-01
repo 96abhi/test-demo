@@ -3,7 +3,7 @@ name: Deploy NodeJS Application to  Ec2
 on:
   push:
     branches:
-      - 96abhi
+      - main
 
 jobs:
   deploy:
@@ -20,6 +20,6 @@ jobs:
           username: ubuntu
           key: ${{ secrets.SSH_KEY }}
           script: |
-            cd /home/ubuntu/nodejs-demo-app
+            cd /home/ubuntu/test-demo
             git pull
             docker compose up -d --build
