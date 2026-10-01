@@ -1,0 +1,19 @@
+{
+  "name": "app-deploy-github-actions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node -e \"console.log('Test passed')\""
+  },
+  "author": "AbhishekSingh",
+  "license": "ISC",
+  "description": "Node.js CI/CD application",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6"
+  }
+}
