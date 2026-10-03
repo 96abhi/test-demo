@@ -253,4 +253,4 @@ curl http://localhost:8080
 ```
 
 ##Final output
-![NODE App](github-actions-final.png)
+![NODE App](screenshots/github-actions-final.png)
