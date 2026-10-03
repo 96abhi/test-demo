@@ -9,4 +9,4 @@ COPY . .
 
 EXPOSE 8080
 
-CMD ["node", "index"]
+CMD ["node", "old-index"]
