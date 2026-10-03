@@ -1,7 +1,7 @@
 const http = require("http");
 const os = require("os");
 
-const PORT = process.env.PORT || 3000; // keep this the same port your Dockerfile/compose already uses
+const PORT = process.env.PORT || 8080; // keep this the same port your Dockerfile/compose already uses
 const VERSION = "v1"; // change to v2, v3... to see each deploy
 const MESSAGE = "Hello from the server";
 const startedAt = Date.now();
