@@ -1,5 +1,5 @@
-const http = require("http");
-const os = require("os");
+import http from "node:http";
+import os from "node:os";
 
 const PORT = process.env.PORT || 8080; // keep this the same port your Dockerfile/compose already uses
 const VERSION = "v1"; // change to v2, v3... to see each deploy
